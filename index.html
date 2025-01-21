@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="m-0 m-auto w-[1024px]">
+        <nav class="h-[71px] w-[1024px] flex items-center justify-between p-[24px]">
+        <div class="flex  items-center gap-[10px]"> <img src="Link → main_logo.svg.png" alt="">
+            <button class="bg-[#FC004A] color-white w-[256px] h-[36px] text-white rounded-[10px]">Укажи свой адресс</button></div>
+                <ul class="flex gap-[20px]">
+                    <li>О нас</li>
+                    <li>Меню</li>
+                    <li>Акции</li>
+                    <li>Филиалы</li>
+                    <li>Контакты</li>
+                </ul>
+        </nav>
+        <img src="Container.png" alt="" class="ml-[24px] mt-[63px]">
+        <h1 class="ml-[24px] text-xs-[32px] font-normal  text-2xl leading-[40px]">Сеты</h1>
+    </header>
+    <section class="m-0 m-auto w-[1024px] flex flex-wrap gap-[20px]">
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Qiyqiriq сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">45 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Снек сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">79 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye1()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Классик сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">34 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye2()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Лонгер рингс сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">45 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye3()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Биг сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">62 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye4()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Лестер сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">53 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye5()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Скул сет</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">36 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye6()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Комбо сет Большой</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">20 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye7()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Do’stlar 1х</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">43 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye8()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Do’stlar 2х</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">45 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye9()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Do’stlar 4х</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">45 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye9()">+</button>
+        </div>
+        <div class="w-[235px] h-[391px] border-black-100 border-2">
+            <img src="HZUU2lH1ZbPF8RUMbkI00HctLUq3UCBwisuMKesd.webp.png" alt="">
+            <h2 class="ml-[12px] mt-[16px] mb-[8px] font-bold">Острый Do’stlar 1х</h2>
+            <h2  class="ml-[12px] mb-[12px] font-medium text-[#FC004A]">43 000 сум</h2>
+            <button  class="ml-[179px] mt-[12px] bg-[#FC004A] w-[40px] h-[40px] text-white text-6xl flex items-center   rounded-2xl" onclick="bye10()">+</button>
+        </div>
+        
+    </section>
+    <footer class="m-0 m-auto w-[1024px] h-[70px]  items-center justify-evenly flex">
+        <h2>2024 Все права защищены</h2>
+        <img src="img/main_logo.svg fill.png" alt="">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
